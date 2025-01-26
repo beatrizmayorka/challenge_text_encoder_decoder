@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beatriz Mayorka de Aguiar">
+    <link rel="shortcut icon" href="./assets/magnifying_glass.png" type="image/x-icon"/>
+    <title>Cryptify</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="imagem_logo">
+    <img src="assets/logo.png" alt="Imagem logo">
+</header>
+
+<main>
+    <section class="container">
+
+        <div class="box__input">
+            <div class="box__input__text">
+                <textarea id="inputText" name="inputText" rows="10" cols="50" placeholder="Digite seu texto"></textarea>
+            </div>
+
+            <div class="validate__message">
+                <img src="assets/exclamation.png" alt="Imagem exclamação"> Apenas letras minúsculas e sem acento.
+            </div>
+
+            <div class="action__buttons">
+                <button class="botaoCriptografar" type="button" onclick="encryptText()">Criptografar</button>
+                <button class="botaoDescriptografar" type="button" onclick="decryptText()">Descriptografar</button>
+            </div>
+        </div>
+
+        <div class="box__output">
+            <div class="empty__result">
+                <img src="assets/woman.png" alt="Imagem da garota de joelhos" class="imagem-background">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p class="empty__result__p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="data__result">
+                <textarea id="text-output" cols="30" rows="20"></textarea>
+                <button class="copy" onclick="copy()">Copiar</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="rodape">
+    <p>Desenvolvido por Beatriz Mayorka de Aguiar</p>
+    <p class="copyright">&copy; 2025 - Challenge Decodificador. Todos os direitos reservados.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
