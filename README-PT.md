@@ -54,7 +54,7 @@ clique [aqui](https://www.figma.com/design/oHxXNku09N5FVEenUia8OD/Alura-Challeng
 
 ### Ou acesse diretamente:
 
-🖥️ [Criptografador de Texto Online](https://seu-usuario.github.io/nome-do-repositorio/)
+🖥️ [Cryptify](https://challenge-text-encoder-decoder.vercel.app/)
 
 ## Estrutura do Projeto
 

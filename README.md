@@ -54,7 +54,7 @@ click [here](https://www.figma.com/design/oHxXNku09N5FVEenUia8OD/Alura-Challenge
 
 ### Or access it directly:
 
-🖥️ [Online Text Encoder](https://your-username.github.io/repository-name/)
+🖥️ [Cryptify](https://challenge-text-encoder-decoder.vercel.app/)
 
 ## Project Structure
 
